@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFBBD16C-2012-432F-A124-D08BFE870969}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>coffe</RootNamespace>
+    <AssemblyName>coffe</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\Semester 3\PBD\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="gambar\Transaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gambar\Transaksi.Designer.cs">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gui\detailtransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\detailtransaksi.Designer.cs">
+      <DependentUpon>detailtransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gui\mastermenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\mastermenu.Designer.cs">
+      <DependentUpon>mastermenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gui\masterpembeli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\masterpembeli.Designer.cs">
+      <DependentUpon>masterpembeli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gui\mastertransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\mastertransaksi.Designer.cs">
+      <DependentUpon>mastertransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gui\menuutama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\menuutama.Designer.cs">
+      <DependentUpon>menuutama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kelas\Koneksi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="gambar\Transaksi.resx">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\detailtransaksi.resx">
+      <DependentUpon>detailtransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\mastermenu.resx">
+      <DependentUpon>mastermenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\masterpembeli.resx">
+      <DependentUpon>masterpembeli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\mastertransaksi.resx">
+      <DependentUpon>mastertransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\menuutama.resx">
+      <DependentUpon>menuutama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="laporan\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
