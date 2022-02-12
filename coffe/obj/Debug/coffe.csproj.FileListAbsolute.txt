@@ -45,3 +45,17 @@ D:\Nova\TUGAS AKHIR PBD\coffe\coffe\bin\Debug\coffe.exe.config
 D:\Nova\TUGAS AKHIR PBD\coffe\coffe\bin\Debug\coffe.exe
 D:\Nova\TUGAS AKHIR PBD\coffe\coffe\bin\Debug\coffe.pdb
 D:\Nova\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.pdb
+D:\TUGAS AKHIR PBD\coffe\coffe\bin\Debug\coffe.exe.config
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.exe
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.pdb
+D:\TUGAS AKHIR PBD\coffe\coffe\bin\Debug\coffe.exe
+D:\TUGAS AKHIR PBD\coffe\coffe\bin\Debug\coffe.pdb
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.csprojResolveAssemblyReference.cache
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.gambar.Transaksi.resources
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.gui.detailtransaksi.resources
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.gui.mastermenu.resources
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.gui.masterpembeli.resources
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.gui.mastertransaksi.resources
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.gui.menuutama.resources
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.Properties.Resources.resources
+D:\TUGAS AKHIR PBD\coffe\coffe\obj\Debug\coffe.csproj.GenerateResource.Cache

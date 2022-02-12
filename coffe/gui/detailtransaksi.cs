@@ -213,5 +213,10 @@ namespace coffe.gui
             gridpembayaran.DataMember = "menu";
             header();
         }
+
+        private void detailtransaksi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

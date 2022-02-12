@@ -167,5 +167,10 @@ namespace coffe.gui
             txt_namapembeli.Text = gridpembeli.Rows[e.RowIndex].Cells[1].Value.ToString();
             txt_idpembeli.ReadOnly = true;
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
