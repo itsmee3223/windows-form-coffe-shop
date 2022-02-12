@@ -18,3 +18,7 @@
 
 ## Form Transaksi & Detail Transaksi
 ![alt text](https://github.com/itsmee3223/windows-form-coffe-shop/blob/master/Form%20Transaksi%20%26%20Detail.jpg)
+
+
+## Semua Menu & Form
+![alt text](https://github.com/itsmee3223/windows-form-coffe-shop/blob/master/cafe%20shop.PNG)
